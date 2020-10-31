@@ -1,0 +1,23 @@
+
+<div>
+  <h2> Update Car </h2>
+  <div>
+    <label>ID:
+      <input [(ngModel)]="car.id" placeholder="id" />
+    </label>
+    <br>
+    <label>Mark:
+      <input [(ngModel)]="car.mark" placeholder="mark" />
+    </label>
+    <br>
+    <label>Model:
+      <input [(ngModel)]="car.model" placeholder="model" />
+    </label>
+    <br>
+    <label>Color:
+      <input [(ngModel)]="car.color" placeholder="color" />
+    </label>
+  </div>
+  <button mat-button (click)="update()">Update</button>
+
+</div>
