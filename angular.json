@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "springboot-angular-crud-example"
+    }
+  },
+  "defaultProject": "springboot-angular-crud-example",
+  "cli": {
+    "analytics": false
+  }
 }
